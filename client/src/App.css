@@ -1,0 +1,200 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  /* Add a font family and change to their font style */
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ----- Home Page ----- */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 80px;
+  line-height: 80px;
+  z-index: 111;
+  border-bottom: 2px solid rgb(149, 1, 1);
+  overflow: hidden;
+}
+.nav img {
+  height: 50px;
+  position: relative;
+  top: 10px;
+}
+.logo {
+  display: flex;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(149, 1, 1);
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.navItems {
+  display: flex;
+}
+.navItems li {
+  list-style: none;
+  margin: 0 15px;
+}
+.navItems li a {
+  font-size: 25px;
+  color: rgb(149, 1, 1);
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navItems li:hover a,
+.links a:hover {
+  color: black;
+}
+.links a{
+  font-size: 30px;
+  color: rgb(149, 1, 1);
+  margin: 25px 10px;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  overflow: hidden;
+}
+.cols {
+  width: 50%;
+  color: rgb(149, 1, 1);
+}
+.topLine {
+  display: block;
+  position: relative;
+  font-size: 35px;
+  letter-spacing: 5px;
+  color: rgb(149, 1, 1);
+}
+.wrapper h1 {
+  display: block;
+  font-size: 3em;
+  font-weight: 900;
+}
+.wrapper p {
+  display: block;
+  width: 90%;
+  font-size: 1.2em;
+}
+.buttons {
+  width: 100%;
+  position: relative;
+  left: 150px;
+}
+.buttons button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(149, 1, 1);
+  background-color: white;
+  padding: 8px 14px;
+  margin: 40px 5px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  box-shadow: 0 15px 10px rgb(149, 1, 1);
+}
+.buttons button:hover {
+  color: white;
+  background-color: rgb(149, 1, 1);
+}
+.imageBox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.imageBox img{
+  position: relative;
+  height: 100%;
+  width: calc(90% - 100px);
+  top: -50px;
+  right: 50px;
+}
+
+/* ----- Food Menu Two ----- */
+.foodContainer {
+  width: 90%;
+  margin: auto;
+  height:min-content;
+  display: flex;
+  justify-content: space-around;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 2px;
+}
+.grid-item1,
+.grid-item2 {
+  background-color: white;
+  padding: 20px;
+}
+.grid-item1 {
+  text-align: end;
+  border-right: 2px solid rgb(149, 1, 1);
+}
+.containerMenu {
+  overflow: hidden;
+  width: 100%;
+  height:fit-content;
+  background-color: rgb(149, 1, 1);
+}
+.grid-item2 p {
+  padding-left: 10px;
+}
+
+/* ----- Menu Item Two ----- */
+.itemContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.itemContainer h2 {
+  color: rgb(149, 1, 1);
+  padding-right: 15px;
+}
+.itemContainer p {
+  padding-right: 15px;
+}
+
+/* ----- Bottom Nav ----- */
+.bottomContainer {
+  width: 80%;
+  height: min-content;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.bottomContainer ul {
+  list-style: none;
+}
+.bottomContainer li,
+.bottomContainer p,
+.bottomContainer a {
+  color: rgb(149, 1, 1);
+}
+
+.bottomContainer a:hover {
+  color: black;
+}
+.bottom {
+  padding: 20px;
+  border-top: 2px solid rgb(149, 1, 1);
+}
