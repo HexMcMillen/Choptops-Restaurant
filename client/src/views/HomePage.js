@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../assets/RestaurantLogo.jpg';
 
 const HomePageTwo = () => {
@@ -11,8 +12,8 @@ const HomePageTwo = () => {
                         <h1 className='topLine'>Burgers with a Spooky Twist!</h1>
                         <p>Star in your own scary movie, with menu items named after horror films and icons!</p>
                         <div className='buttons'>
-                            <button><a href="/ChopTops/Burgers">Burgers</a></button>
-                            <button><a href="/ChopTops/Drinks">Malts</a></button>
+                            <button><Link  to="/ChopTops/Burgers">Burgers</Link></button>
+                            <button><Link to="/ChopTops/Drinks">Malts</Link></button>
                         </div>
                     </div>
                     <div className='cols cols1'>
