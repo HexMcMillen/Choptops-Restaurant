@@ -12,7 +12,7 @@ const HomePageTwo = () => {
                         <h1 className='topLine'>Burgers with a Spooky Twist!</h1>
                         <p>Star in your own scary movie, with menu items named after horror films and icons!</p>
                         <div className='buttons'>
-                            <button><Link  to="/ChopTops/Burgers">Burgers</Link></button>
+                            <button><Link to="/ChopTops/Burgers">Burgers</Link></button>
                             <button><Link to="/ChopTops/Drinks">Malts</Link></button>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Facebook from '../assets/icons8-facebook-32.png';
 
 const NavBar = () => {
@@ -7,9 +8,9 @@ const NavBar = () => {
             <div className='nav'>
                 <div className='logo'>Chop Top's Burger and Malts</div>
                 <ul className='navItems'>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/ChopTops/Burgers">Burgers</a></li>
-                    <li><a href="/ChopTops/Drinks">Malts|Desserts</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/ChopTops/Burgers">Burgers</Link></li>
+                    <li><Link to="/ChopTops/Drinks">Malts|Desserts</Link></li>
                 </ul>
                 <div className='links'>
                     <a href='https://www.facebook.com/ChopTopsBurgers'><img src={ Facebook } alt="FaceBook Logo"></img></a>
